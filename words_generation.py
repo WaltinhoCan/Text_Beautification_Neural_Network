@@ -10,7 +10,7 @@ for palavra in palavras:
 	blank = 255*np.ones((h, w)).astype(np.uint8)
 	image_pil = Image.fromarray(blank)
 	draw = ImageDraw.Draw(image_pil)
-	fonts = glob.glob("/home/palestina/Desktop/TESTES/Imagens/fontes/*")
+	fonts = glob.glob("/fontes/*")
 	font = random.choice(fonts)
 	font_pil = ImageFont.truetype(font, fontsize)
 	while font_pil.getsize(palavra)[0] < img_fraction*w:
