@@ -9,7 +9,7 @@ install the python packages using "pip"
 
 ```
 pip install random
-pip install cv2
+pip install opencv
 pip install english_words
 pip install numpy
 pip install PIL
