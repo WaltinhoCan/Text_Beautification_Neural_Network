@@ -1,0 +1,6 @@
+pip install random
+pip install opencv
+pip install english_words
+pip install numpy
+pip install PIL
+pip install glob
